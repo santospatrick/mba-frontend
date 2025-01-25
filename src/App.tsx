@@ -1,11 +1,11 @@
-import LoginForm from './forms/LoginForm'
+import { BrowserRouter } from 'react-router-dom'
+import Router from './Router'
 
 function App() {
   return (
-    <div>
-      <h1 className="text-center text-3xl">MBA Frontend</h1>
-      <LoginForm />
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
